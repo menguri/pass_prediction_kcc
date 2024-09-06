@@ -10,21 +10,24 @@ The repository contains explanation about the network structure of paper "[Deep 
 | Input Embeding    | x           |
 | Position Encoding| 6     |
 
+<br>
+ 
 | 2. middle        | Attention           |
 | Temporal Transformer | 8     |
 | Spatial Transformer | 8      |
 | Temporal Transformer | 8      |
+
+<br>
 
 | 3. end        | output           |
 | Decoder | 11      |
 | Softmax | 11      |
 
 <br>
-<br>
 
 ## Image of network structure:  
 
-<img src=./images/pass_intention_algorithm.png alt="drawing"/>
+<img src=./images/pass_intention_algorithm.png alt="drawing" width="420"/>
 
 
 <br>
