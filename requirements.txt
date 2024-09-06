@@ -176,4 +176,4 @@ wrapt==1.15.0
 xgboost==1.7.6
 yapf==0.40.1
 yarl==1.9.2
-zipp==3.16.2
+zipp==3.19.1
