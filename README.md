@@ -3,6 +3,8 @@
 The repository contains explanation about the network structure of paper "[Deep Learning-based Pass Intent Prediction in Football Matche](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11862501)".  
 
 
+<br>
+
 ## Network Structure:  
 
 | 1. start        | layer           |
@@ -13,6 +15,7 @@ The repository contains explanation about the network structure of paper "[Deep 
 <br>
  
 | 2. middle        | Attention           |
+| ------------- |:-------------:|
 | Temporal Transformer | 8     |
 | Spatial Transformer | 8      |
 | Temporal Transformer | 8      |
@@ -20,6 +23,7 @@ The repository contains explanation about the network structure of paper "[Deep 
 <br>
 
 | 3. end        | output           |
+| ------------- |:-------------:|
 | Decoder | 11      |
 | Softmax | 11      |
 
@@ -29,10 +33,9 @@ The repository contains explanation about the network structure of paper "[Deep 
 
 <img src=./images/pass_intention_algorithm.png alt="drawing" width="420"/>
 
-
 <br>
 <br>
-
 
 ## Preprocess metrica-data
-
+For running this model, you should make your data fit with specific format. <br>
+Check the link(https://github.com/GunHeeJoe/metrica_preprocess). You can check the format and get some tips for preprocessing metrica-data of statsbomb.
