@@ -5,15 +5,31 @@ The repository contains explanation about the network structure of paper "[Deep 
 
 ## Network Structure:  
 
-| name        | nodes           | activation function  |
-| ------------- |:-------------:| -----:|
-| Input Embeding    | 512           | N/A |
-| Position Encoding| 1024     |  Relu |
-| Temporal Transformer | 1000      |  Relu |
-| Spatial Transformer | 3      |  N/A |
-| Temporal Transformer | 3      |  N/A |
+| 1. start        | layer           |
+| ------------- |:-------------:|
+| Input Embeding    | x           |
+| Position Encoding| 6     |
 
+| 2. middle        | Attention           |
+| Temporal Transformer | 8     |
+| Spatial Transformer | 8      |
+| Temporal Transformer | 8      |
+
+| 3. end        | output           |
+| Decoder | 11      |
+| Softmax | 11      |
+
+<br>
+<br>
 
 ## Image of network structure:  
 
 <img src=./images/pass_intention_algorithm.png alt="drawing"/>
+
+
+<br>
+<br>
+
+
+## Preprocess metrica-data
+
