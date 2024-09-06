@@ -1,8 +1,19 @@
-# EPV_KCC
+# DRL-ice-hockey
 
-[역할]
-1) Metrica Data 전처리 및 영상 제작
-2) 실패한 패스 전체 라벨링
-3) 거리, 거리/각도, 거리/좁은각도 기반 Intended Receiver 계산 및 성능 비교 실험
-4) SoccerMap 활용한 Intended Receiver 활용
-5) 파라미터 조절하며 EPV 실험 
+The repository contains explanation about the network structure of paper "[Deep Learning-based Pass Intent Prediction in Football Matche](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11862501)".  
+
+
+## Network Structure:  
+
+| name        | nodes           | activation function  |
+| ------------- |:-------------:| -----:|
+| Input Embeding    | 512           | N/A |
+| Position Encoding| 1024     |  Relu |
+| Temporal Transformer | 1000      |  Relu |
+| Spatial Transformer | 3      |  N/A |
+| Temporal Transformer | 3      |  N/A |
+
+
+## Image of network structure:  
+
+<img src=./images/pass_intention_algorithm.png alt="drawing" height="320" width="420"/>
