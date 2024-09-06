@@ -91,7 +91,7 @@ nvidia-nccl-cu11==2.14.3
 nvidia-nvtx-cu11==11.7.91
 oauthlib==3.2.2
 omegaconf==2.3.0
-opencv-python==4.8.0.76
+opencv-python==4.8.1.78
 opencv-python-headless==4.8.0.76
 opendatalab==0.0.10
 openmim==0.3.9
