@@ -1,4 +1,4 @@
-# DRL-ice-hockey
+# Transformer : Soccer pass-receiver prediction
 
 The repository contains explanation about the network structure of paper "[Deep Learning-based Pass Intent Prediction in Football Matche](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11862501)".  
 
@@ -16,4 +16,4 @@ The repository contains explanation about the network structure of paper "[Deep 
 
 ## Image of network structure:  
 
-<img src=./images/pass_intention_algorithm.png alt="drawing" height="320" width="420"/>
+<img src=./images/pass_intention_algorithm.png alt="drawing"/>
